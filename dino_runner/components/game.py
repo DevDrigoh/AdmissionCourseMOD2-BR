@@ -24,7 +24,7 @@ class Game:
             self.events()
             self.update()
             self.draw()
-        pygame.quit()    
+        pygame.quit()
 
     def events(self):
         for event in pygame.event.get():
